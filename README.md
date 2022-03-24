@@ -23,3 +23,7 @@ If you choose to connect to your own compass the you will have to change the mon
 And the default tags in both the makeup and hairstyle collections entered manually
 
 The app runs on port 3000 and server on port 3001
+
+Endpoint for all makeup tags http://localhost:3001/makeup
+
+Endpoint for all hairstyle tags http://localhost:3001/hairstyle
