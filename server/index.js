@@ -58,11 +58,11 @@ app.post('/addMakeup', async(req,res)=>{
     res.send("User was successfully Added")
 })
 
-app.use(express.static(path.join(__dirname,"/client/build")))
+// app.use(express.static(path.join(__dirname,"/client/build")))
 
-app.get('*', (req,res)=>{
-    res.sendFile(path.join(__dirname,"/client/build","index.html"))
-})
+// app.get('*', (req,res)=>{
+//     res.sendFile(path.join(__dirname,"/client/build","index.html"))
+// })
 
 // sever listening on port 3001
 app.listen(process.env.PORT||3001,()=>{
