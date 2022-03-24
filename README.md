@@ -2,23 +2,21 @@ Download file from github
 
 open folder in command prompt
 
-Run: npm install
-
-Run: npm run dev
-
-Run npm start
-
-cd server/client
+cd server
 
 Run: npm install
 
-Run: npm run dev
+cd server/client in another terminal
+
+Run: npm install
 
 Run npm start
+
+Run npm start in server terminal
 
 change the axios endpoints in the form.js folder to http://localhost:3001/....
 
-If you choose to connect to your own compass the you will have to change the mongo.connction URI in the index.js
+If you choose to connect to your own compass the you will have to change the mongo.connection URI in the index.js
 
 And the default tags in both the makeup and hairstyle collections entered manually
 
